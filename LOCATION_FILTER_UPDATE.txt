@@ -1,0 +1,7 @@
+LOCATION FILTER UPDATE
+
+Student Records now includes an All school locations dropdown. It uses the existing School City / Location field (schoolCity) from scanned or manually entered forms. It works together with school, class, stream, date and search filters. The list populates from saved Google Sheet records after loading or refreshing. Blank locations are not shown as options.
+
+DEPLOYMENT: Upload the frontend files to the root of your existing GitHub Pages repository, preserving assets. No changes to Code.gs or redeployment of Apps Script are required for this filter. Hard refresh browser Ctrl+Shift+R after GitHub Pages publishes.
+
+If an existing record has a blank School City / Location, it will only show when All school locations is selected. This filter is not the residential town/city field.
